@@ -33,7 +33,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: kylewlacy/upload-pages-artifact@handle-weird-paths
         with:
           path: Source Dir
       - name: Deploy to GitHub Pages
